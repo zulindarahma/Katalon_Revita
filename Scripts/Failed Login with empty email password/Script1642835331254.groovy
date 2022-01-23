@@ -25,3 +25,7 @@ WebUI.setText(findTestObject('Login/Page_Telkom Revita/input_Sign into your page
 
 WebUI.click(findTestObject('Login/Page_Telkom Revita/input_Registrasi_btn btn-brand btn-lg'))
 
+WebUI.verifyTextPresent('The email field is required.', false)
+
+WebUI.verifyTextPresent('The password field is required.', false)
+
